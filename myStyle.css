@@ -2,8 +2,8 @@ body
 	{
 		background-image: url("Light_Purple_Lines_Wallpaper-1.jpg");
 		color: #4b3c8f;
-		background-color: #ddd6ff;
-		font-family: "Courier New";
+		background-color: #a192e3;
+		font-family: "Times";
 	}
 
 h1
@@ -14,6 +14,11 @@ h2
 	{
 		text-align: center;
 		background-color: #8672d3;
+	}
+	
+h5
+	{
+		color: #4b3c8f;
 	}
 
 img
@@ -26,6 +31,5 @@ img
 	}
 div
 	{
-		border-radius: 8px;
 		background-color: #a192e3;
 	}
