@@ -3,12 +3,14 @@ body
 		background-image: url("Light_Purple_Lines_Wallpaper-1.jpg");
 		color: #4b3c8f;
 		background-color: #a192e3;
-		font-family: "Times";
+		font-family: "Courier New";
 	}
 
 h1
 	{
-		text-align: center
+		text-align: center;
+		font-size: 4em;
+		text-shadow: 4px 4px 10px #cac0ff, -4px 4px 10px #cac0ff, 4px -4px 10px #cac0ff, -4px -4px 10px #cac0ff;
 	}
 h2
 	{
@@ -32,4 +34,16 @@ img
 div
 	{
 		background-color: #a192e3;
+	}
+.div1
+	{
+		height: 140px;
+	}
+p
+	{
+		text-indent: 2em;
+	}
+li
+	{
+		line-height: 1.5em;
 	}
