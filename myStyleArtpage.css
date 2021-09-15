@@ -14,16 +14,10 @@ h1
 		text-shadow: 4px 4px 10px #cac0ff, -4px 4px 10px #cac0ff, 4px -4px 10px #cac0ff, -4px -4px 10px #cac0ff;
 		font-family: "Georgia";
 	}
-h2
-	{
-		text-align: center;
-		background-color: #8672d3;
-		font-family: "Georgia";
-		line-height: 1.5em;
-	}
-	
 h5
 	{
+		position: absolute;
+		bottom: 5px;
 		color: #4b3c8f;
 	}
 
@@ -34,16 +28,5 @@ img
 		margin-left: auto;
 		margin-right: auto;
 		border: 4px solid #4b3c8f; 
-	}
-div
-	{
-		background-color: #a192e3;
-	}
-p
-	{
-		text-indent: 2em;
-	}
-ul
-	{
-		font-size: .9em;
+		float: left;
 	}
