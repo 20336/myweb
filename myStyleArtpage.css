@@ -1,5 +1,6 @@
 body
 	{
+		background-image: url("Light_Purple_Lines_Wallpaper-1.jpg");
 		color: #4b3c8f;
 		background-color: #a192e3;
 		font-family: "Verdana";
@@ -20,7 +21,11 @@ h5
 		color: #4b3c8f;
 	}
 
-
+img
+	{
+		border-radius: 8px;
+		border: 3px solid #4b3c8f; 
+	}
 	
 .row 
 	{
