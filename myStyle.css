@@ -45,5 +45,54 @@ p
 	}
 ul
 	{
+		
 		font-size: .9em;
+		
+		list-style-image: url(images/Cat.png);
+		list-style-position: inside;
 	}
+nav
+{
+	text-align: center;
+	line-height: 2em;
+	background-color: #8672d3;
+}
+
+div nav li
+{
+	font-size: 1.5em;
+	list-style-type: none;
+	display: inline;
+	padding-right: 40px;
+}
+
+nav a:link, nav a:visited
+{
+	font-family: "Georgia";
+	text-decoration:none;
+	color: #4b3c8f;
+}
+nav a:hover
+{
+	text-decoration:underline;
+}
+nav a:active
+{
+	
+	color: #CAC0FF;
+	text-decoration:underline;
+}
+div img
+{
+	border-radius: 8px;
+	border: 3px solid #4b3c8f; 
+	background-color:transparent;
+}
+	
+.row 
+{
+	background-color:transparent;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
