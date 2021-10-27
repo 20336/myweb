@@ -1,8 +1,7 @@
 body
 	{
-		background-image: url("images/Light_Purple_Lines_Wallpaper-1.jpg");
+		background: url("images/Light_Purple_Lines_Wallpaper-1.jpg") #a192e3 center repeat fixed;
 		color: #4b3c8f;
-		background-color: #a192e3;
 		font-family: "Verdana";
 		line-height: 1.5em;
 	}
@@ -27,7 +26,16 @@ h5
 		color: #4b3c8f;
 	}
 
-img
+
+.twig
+	{
+		float: right;
+		border-radius: 8px;
+		border: 4px solid #4b3c8f;
+		margin-right: 10px;
+	}
+	
+.topimage
 	{
 		border-radius: 8px;
 		display: block;
@@ -41,6 +49,8 @@ div
 	}
 p
 	{
+		padding-left: 20px;
+		padding-right: 20px;
 		text-indent: 2em;
 	}
 ul
@@ -82,17 +92,22 @@ nav a:active
 	color: #CAC0FF;
 	text-decoration:underline;
 }
-div img
-{
-	border-radius: 8px;
-	border: 3px solid #4b3c8f; 
-	background-color:transparent;
-}
+
 	
 .row 
 {
-	background-color:transparent;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
 }
+.column 
+	{
+		flex: 50%;
+		padding: 0 4px;
+	}
+
+.column img 
+	{
+		margin-top: 8px;
+		vertical-align: middle;
+	}
